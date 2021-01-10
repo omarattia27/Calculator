@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p class = "p" id="king">.</p>
+<div>
+  <button class="button1" onclick="equel('=')">=</button>
+  <button class="button1" onclick="AC()">AC</button>
+</div>
+<div> 
+  <button class="button" onclick="myFunction(1)">1</button>
+  <button class="button" onclick="myFunction(2)">2</button>
+  <button class="button" onclick="myFunction(3)">3</button>
+</div>
+
+<div>
+  <button class="button" onclick="myFunction(4)">4</button>
+  <button class="button" onclick="myFunction(5)">5</button>
+  <button class="button" onclick="myFunction(6)">6</button>
+</div>
+
+<div>
+  <button class="button" onclick="myFunction(7)">7</button>
+  <button class="button" onclick="myFunction(8)">8</button>
+  <button class="button" onclick="myFunction(9)">9</button>
+</div>
+
+<div>
+  <button class="button" onclick="myFunction('.')">.</button> 
+  <button class="button" onclick="myFunction(0)">0</button>
+  <button class="button" onclick="Minus('-')">-</button>  
+</div>
+  <button class="button" onclick="add('+')">+</button>
+  <button class="button" onclick="MUL()">X</button>
+  <button class="button" onclick="DIV()">/</button>
+<div>
+
+</div>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
+
+<style>
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-width: 32px;
+    max-width: 32px;
+  }
+  .button1 {
+    background-color: #d4dd5a;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-width: 32px;
+    max-width: 32px;
+  }
+  .p  {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-width: 68px;
+    max-width: 68px;
+  }
+</style>
